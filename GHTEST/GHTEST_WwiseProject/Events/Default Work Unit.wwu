@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6FB7954B-DFF1-4FD2-9FFC-CA65C9437E81}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{6FB7954B-DFF1-4FD2-9FFC-CA65C9437E81}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayBeeWoo" ID="{BE67A804-D974-4362-B949-FD9F3B2314CD}">
+					<ChildrenList>
+						<Action Name="" ID="{DD5FB486-98E1-4D85-9391-56240277BE29}" ShortID="674408518">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BeeWoo" ID="{F44DF8CA-0041-4F18-BE97-A895340119BB}" WorkUnitID="{2EEF74DB-B886-46B4-9880-219A219E8814}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2687999762	PlayBeeWoo			\Default Work Unit\PlayBeeWoo	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	630907381	BeeWoo	E:\Documents\Github\ghtest\GHTEST\GHTEST_WwiseProject\.cache\Windows\SFX\BeeWoop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BeeWoo		22358896
+

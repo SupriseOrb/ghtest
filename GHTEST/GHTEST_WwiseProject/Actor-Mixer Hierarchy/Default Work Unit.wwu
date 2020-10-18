@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2EEF74DB-B886-46B4-9880-219A219E8814}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{2EEF74DB-B886-46B4-9880-219A219E8814}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="BeeWoo" ID="{F44DF8CA-0041-4F18-BE97-A895340119BB}" ShortID="153916649">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB9A1D96-AED2-4E03-980E-2BA00DF2BDAC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5D084458-F9AC-428A-BBB1-39BABD2F3FD6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BeeWoop" ID="{302F1402-C0AB-4DB0-8D8E-53A243F33064}">
+							<Language>SFX</Language>
+							<AudioFile>BeeWoop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="630907381"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BeeWoop" ID="{302F1402-C0AB-4DB0-8D8E-53A243F33064}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
