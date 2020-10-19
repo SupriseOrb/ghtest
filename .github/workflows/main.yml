@@ -6,7 +6,6 @@ on:
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
-
 jobs:
   buildForWindows:
     name: Build for ${{ matrix.targetPlatform }} on version ${{ matrix.unityVersion }}
@@ -18,7 +17,6 @@ jobs:
           - 2020.1.9f1
         targetPlatform:
           - StandaloneWindows # Build a Windows standalone.
-          - StandaloneWindows64 # Build a Windows 64-bit standalone.
         projectPath:
           - GHTEST
     steps:
